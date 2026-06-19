@@ -17,7 +17,7 @@ export default function About() {
               </div>
             </div>
             <div className="about-experience-badge">
-              <span className="number">{profile.stats[1]?.value || '5+'}</span>
+              <span className="number">{profile.stats[1]?.value || '2'}</span>
               <span className="label">سنة خبرة</span>
             </div>
           </div>

@@ -44,7 +44,7 @@ export default function AdminLogin() {
         </button>
 
         <div style={{ marginTop: 20 }}>
-          <a href="/" style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.85rem' }}>
+          <a href="/yyy/" style={{ color: 'rgba(255,255,255,0.4)', fontSize: '0.85rem' }}>
             <i className="fas fa-arrow-right"></i> العودة للرئيسية
           </a>
         </div>

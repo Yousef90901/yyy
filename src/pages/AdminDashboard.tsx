@@ -59,13 +59,13 @@ export default function AdminDashboard() {
           إجراءات سريعة
         </h3>
         <div style={{ display: 'flex', gap: 12, flexWrap: 'wrap' }}>
-          <a href="/admin/profile" className="btn btn-primary btn-sm">
+          <a href="/yyy/admin/profile" className="btn btn-primary btn-sm">
             <i className="fas fa-user-edit"></i> تعديل الملف الشخصي
           </a>
-          <a href="/admin/projects" className="btn btn-primary btn-sm">
+          <a href="/yyy/admin/projects" className="btn btn-primary btn-sm">
             <i className="fas fa-plus"></i> إدارة المشاريع
           </a>
-          <a href="/admin/skills" className="btn btn-primary btn-sm">
+          <a href="/yyy/admin/skills" className="btn btn-primary btn-sm">
             <i className="fas fa-plus"></i> إدارة المهارات
           </a>
         </div>

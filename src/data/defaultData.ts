@@ -69,15 +69,15 @@ export const defaultData: PortfolioData & { _version: number } = {
     title: 'مهندس زراعي | خبير ذكاء اصطناعي',
     titleEn: 'Agricultural Engineer | AI Specialist',
     bio: 'مهندس زراعي شغوف بتوظيف الذكاء الاصطناعي في تطوير الحلول الزراعية الذكية. أملك خبرة في بناء تطبيقات ويب تفاعلية، برامج دردشة ذكية، وأنظمة تشخيص أمراض النبات باستخدام تقنيات التعلم العميق.',
-    photo: '',
-    email: 'youssef.ragab@example.com',
-    phone: '+20 100 000 0000',
+    photo: '/yyy/images/profile.png',
+    email: 'yousefrajabaweis@gmail.com',
+    phone: '+20 01119547709',
     location: 'مصر',
     socialLinks: [
       { platform: 'LinkedIn', url: 'https://linkedin.com/in/youssefragab', icon: 'fab fa-linkedin-in' },
       { platform: 'GitHub', url: 'https://github.com/youssefragab', icon: 'fab fa-github' },
       { platform: 'Twitter', url: 'https://twitter.com/youssefragab', icon: 'fab fa-twitter' },
-      { platform: 'WhatsApp', url: 'https://wa.me/201000000000', icon: 'fab fa-whatsapp' }
+      { platform: 'WhatsApp', url: 'https://wa.me/201119547709', icon: 'fab fa-whatsapp' }
     ],
     resumeUrl: '#',
     aboutTitle: 'نبذة عني',
@@ -87,7 +87,7 @@ export const defaultData: PortfolioData & { _version: number } = {
     ],
     stats: [
       { label: 'مشروع مكتمل', value: '15+', icon: 'fas fa-project-diagram' },
-      { label: 'سنة خبرة', value: '5+', icon: 'fas fa-calendar-alt' },
+      { label: 'سنة خبرة', value: '2', icon: 'fas fa-calendar-alt' },
       { label: 'عميل سعيد', value: '20+', icon: 'fas fa-smile' },
       { label: 'تطبيق زراعي', value: '7+', icon: 'fas fa-leaf' }
     ]
@@ -111,8 +111,8 @@ export const defaultData: PortfolioData & { _version: number } = {
       id: 'p1',
       title: 'شات بوت زراعي ذكي - AgriChat',
       description: 'برنامج محادثة ذكي متخصص في المجال الزراعي، يجيب على استفسارات المزارعين حول زراعة المحاصيل، التسميد، الري، ومكافحة الآفات باستخدام تقنيات NLP والذكاء الاصطناعي.',
-      technologies: ['React', 'Python', 'NLP', 'OpenAI', 'Node.js'],
-      image: '',
+      technologies: ['React'],
+      image: '/yyy/images/agri_chatbot.png',
       link: '#',
       github: '#',
       featured: true,
@@ -122,8 +122,8 @@ export const defaultData: PortfolioData & { _version: number } = {
       id: 'p2',
       title: 'نظام تشخيص أمراض النبات - PlantDoc',
       description: 'نظام متقدم لفحص وتشخيص أمراض النبات عن طريق رفع صورة النبات المصاب. يستخدم تقنيات الرؤية الحاسوبية والتعلم العميق لتحديد المرض وتقديم توصيات العلاج.',
-      technologies: ['Python', 'TensorFlow', 'Computer Vision', 'React', 'Flask'],
-      image: '',
+      technologies: ['React'],
+      image: '/yyy/images/plantdoc.png',
       link: '#',
       github: '#',
       featured: true,
@@ -133,8 +133,8 @@ export const defaultData: PortfolioData & { _version: number } = {
       id: 'p3',
       title: 'المساعد الزراعي الصوتي - AgriVoice',
       description: 'مساعد صوتي ذكي متخصص في المجال الزراعي يتيح للمزارعين التفاعل الصوتي للحصول على استشارات فورية حول الممارسات الزراعية المثلى.',
-      technologies: ['React', 'Speech Recognition', 'NLP', 'Node.js'],
-      image: '',
+      technologies: ['React'],
+      image: '/yyy/images/agri_voice.png',
       link: '#',
       github: '#',
       featured: true,
@@ -142,43 +142,22 @@ export const defaultData: PortfolioData & { _version: number } = {
     },
     {
       id: 'p4',
-      title: 'موقع شركة لاندسكيب وري - GreenScape',
-      description: 'موقع متكامل لشركة ناشئة في مجال اللاندسكيب وتنسيق الحدائق وأنظمة الري الحديثة. يعرض الخدمات والمشاريع السابقة ويتيح التواصل الفوري.',
-      technologies: ['React', 'CSS', 'JavaScript', 'Responsive Design'],
-      image: '',
+      title: 'برنامج حساب وتصميم شبكات الري',
+      description: 'برنامج متخصص لحساب وتصميم شبكات الري الحديثة، يدعم حسابات التدفق والضغط وأقطار المواسير، مع إخراج تقارير فنية متكاملة.',
+      technologies: ['React'],
+      image: '/yyy/images/irrigation_design.png',
       link: '#',
       github: '#',
       featured: true,
       date: '2025-06'
     },
-    {
-      id: 'p5',
-      title: 'نظام إرشاد زراعي ذكي',
-      description: 'منصة رقمية متكاملة تقدم توصيات زراعية مخصصة بناءً على تحليلات التربة والطقس والمحاصيل، باستخدام خوارزميات الذكاء الاصطناعي.',
-      technologies: ['Python', 'Machine Learning', 'React', 'PostgreSQL'],
-      image: '',
-      link: '#',
-      github: '#',
-      featured: false,
-      date: '2025-04'
-    },
-    {
-      id: 'p6',
-      title: 'تطبيق إدارة المزارع - FarmPro',
-      description: 'تطبيق ويب لإدارة المزارع بشكل شامل، يتتبع عمليات الزراعة والري والحصاد والمخزون، مع لوحة تحليلية متقدمة.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Chart.js'],
-      image: '',
-      link: '#',
-      github: '#',
-      featured: false,
-      date: '2025-02'
-    }
+
   ],
   experiences: [
     {
       id: 'e1',
       title: 'مهندس ذكاء اصطناعي زراعي',
-      company: 'شركة AgriTech Solutions',
+      company: 'خاص',
       description: 'تطوير حلول الذكاء الاصطناعي للمجال الزراعي، بناء أنظمة تشخيص الأمراض، والإشراف على مشاريع التحول الرقمي الزراعي.',
       startDate: '2023-03',
       endDate: '',
@@ -196,11 +175,20 @@ export const defaultData: PortfolioData & { _version: number } = {
     {
       id: 'e3',
       title: 'مهندس زراعي',
-      company: 'شركة GreenField للاستشارات الزراعية',
+      company: 'خاص',
       description: 'تقديم استشارات زراعية للمزارعين، الإشراف على عمليات الإنتاج الزراعي، وتطبيق نظم الري الحديثة.',
       startDate: '2020-06',
       endDate: '2023-02',
       current: false
+    },
+    {
+      id: 'e4',
+      title: 'Member of IAENG Society of Artificial Intelligence',
+      company: 'International Association of Engineers - Hong Kong',
+      description: 'Membership No: 563933 - عضو في جمعية IAENG للذكاء الاصطناعي التابعة للاتحاد الدولي للمهندسين.',
+      startDate: '2025-01',
+      endDate: '',
+      current: true
     }
   ],
   testimonials: [

@@ -16,7 +16,7 @@ export default function App() {
   return (
     <DataProvider>
       <AuthProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/yyy">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/admin" element={<AdminLogin />} />
