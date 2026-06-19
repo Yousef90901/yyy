@@ -7,6 +7,15 @@
     <title>يوسف رجب عويس - مهندس زراعي وذكاء اصطناعي</title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <script>
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
     <script type="module" crossorigin src="/yyy/assets/index-YHZJLa2S.js"></script>
     <link rel="stylesheet" crossorigin href="/yyy/assets/index-XRQk0w5m.css">
   </head>
