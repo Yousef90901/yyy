@@ -34,14 +34,9 @@ export default function Projects() {
                   ))}
                 </div>
                 <div className="project-links">
-                  {project.link && project.link !== '#' && (
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">
-                      <i className="fas fa-external-link-alt"></i> معاينة
-                    </a>
-                  )}
                   {project.github && project.github !== '#' && (
                     <a href={project.github} target="_blank" rel="noopener noreferrer">
-                      <i className="fab fa-github"></i> كود
+                      <i className="fab fa-github"></i> {project.technologies.join(' · ')}
                     </a>
                   )}
                 </div>
