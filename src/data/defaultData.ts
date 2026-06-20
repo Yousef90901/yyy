@@ -74,7 +74,7 @@ export const defaultData: PortfolioData & { _version: number } = {
     phone: '+20 01119547709',
     location: 'مصر',
     socialLinks: [
-      { platform: 'LinkedIn', url: 'https://linkedin.com/in/youssefragab', icon: 'fab fa-linkedin-in' },
+      { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/yousef-ragab-aweis-ba86a2390', icon: 'fab fa-linkedin-in' },
       { platform: 'GitHub', url: 'https://github.com/youssefragab', icon: 'fab fa-github' },
       { platform: 'Twitter', url: 'https://twitter.com/youssefragab', icon: 'fab fa-twitter' },
       { platform: 'WhatsApp', url: 'https://wa.me/201119547709', icon: 'fab fa-whatsapp' }
