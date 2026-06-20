@@ -140,17 +140,28 @@ export const defaultData: PortfolioData & { _version: number } = {
       featured: true,
       date: '2025-08'
     },
-    {
-      id: 'p4',
-      title: 'برنامج حساب وتصميم شبكات الري',
-      description: 'برنامج متخصص لحساب وتصميم شبكات الري الحديثة، يدعم حسابات التدفق والضغط وأقطار المواسير، مع إخراج تقارير فنية متكاملة.',
-      technologies: ['React'],
-      image: '/yyy/images/irrigation_design.png',
-      link: '#',
-      github: '#',
-      featured: true,
-      date: '2025-06'
-    },
+      {
+        id: 'p4',
+        title: 'برنامج حساب وتصميم شبكات الري',
+        description: 'برنامج متخصص لحساب وتصميم شبكات الري الحديثة، يدعم حسابات التدفق والضغط وأقطار المواسير، مع إخراج تقارير فنية متكاملة.',
+        technologies: ['React'],
+        image: '/yyy/images/irrigation_design.png',
+        link: '#',
+        github: '#',
+        featured: true,
+        date: '2025-06'
+      },
+      {
+        id: 'p5',
+        title: '🌿 الخبير الزراعي - AgriExpert',
+        description: 'موقع شامل للمهندس الزراعي حديث التخرج، يضم دليلًا كاملاً لـ 56 محصولًا (خضروات، فواكه، أشجار مثمرة، حبوب، محاصيل صناعية) مع مواعيد الزراعة، التسميد (جداول NPK)، الري، والعمليات الحقلية. يتضمن حاسبات ذكية: الري، الإجهاد الحراري (THI)، والتسميد.',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        image: '/yyy/images/agri_expert.png',
+        link: 'https://yousef90901.github.io/agri-expert',
+        github: 'https://github.com/Yousef90901/agri-expert',
+        featured: true,
+        date: '2026-06'
+      },
 
   ],
   experiences: [
