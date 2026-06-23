@@ -23,7 +23,7 @@ interface DataContextType {
 const DataContext = createContext<DataContextType | null>(null);
 
 const STORAGE_KEY = 'yt_portfolio_data';
-const DATA_VERSION = 2;
+const DATA_VERSION = 4;
 
 function loadData(): PortfolioData {
   try {

@@ -113,7 +113,7 @@ export const defaultData: PortfolioData & { _version: number } = {
       description: 'برنامج محادثة ذكي متخصص في المجال الزراعي، يجيب على استفسارات المزارعين حول زراعة المحاصيل، التسميد، الري، ومكافحة الآفات باستخدام تقنيات NLP والذكاء الاصطناعي.',
       technologies: ['React'],
       image: '/yyy/images/agri_chatbot.png',
-      link: '#',
+      link: 'https://yousef90901.github.io/chat/',
       github: '#',
       featured: true,
       date: '2025-12'
@@ -144,10 +144,10 @@ export const defaultData: PortfolioData & { _version: number } = {
         id: 'p4',
         title: 'برنامج حساب وتصميم شبكات الري',
         description: 'برنامج متخصص لحساب وتصميم شبكات الري الحديثة، يدعم حسابات التدفق والضغط وأقطار المواسير، مع إخراج تقارير فنية متكاملة.',
-        technologies: ['React'],
+        technologies: ['React', 'TypeScript'],
         image: '/yyy/images/irrigation_design.png',
-        link: '#',
-        github: '#',
+      link: 'https://yousef90901.github.io/irr/',
+      github: 'https://github.com/Yousef90901/irr',
         featured: true,
         date: '2025-06'
       },
@@ -234,5 +234,5 @@ export const defaultData: PortfolioData & { _version: number } = {
     font: 'Cairo'
   },
   adminPassword: 'yousef',
-  _version: 2
+  _version: 4
 };

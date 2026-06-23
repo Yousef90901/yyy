@@ -43,7 +43,7 @@ export default function AdminSettings() {
     reader.onload = () => {
       try {
         const imported = JSON.parse(reader.result as string);
-        localStorage.setItem('yt_portfolio_data', JSON.stringify({ ...imported, _version: 2 }));
+        localStorage.setItem('yt_portfolio_data', JSON.stringify({ ...imported, _version: 4 }));
         alert('✅ تم استيراد البيانات بنجاح. سيتم إعادة تحميل الصفحة.');
         window.location.reload();
       } catch { alert('❌ فشل قراءة الملف. تأكد من أنه بصيغة JSON صحيحة.'); }
